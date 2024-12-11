@@ -18,7 +18,7 @@ int main()
         result[a[i]] = i;
     }
  
-    // Output: who gave a gift to whom
+
     for (int i = 1; i <= n; i++) {
         cout << result[i] << " ";
     }
